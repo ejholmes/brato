@@ -1,0 +1,12 @@
+{
+  "instruments": [
+    {
+      "name": "r101-webhooks: Response Time",
+      "streams": [
+        {
+          "composite": "s(\"router.service\", \"r101-webhooks-production*\")"
+        }
+      ]
+    }
+  ]
+}
